@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:cnt="http://www.w3.org/2011/content#">
+<rdf:Description rdf:about="http://localhost/cwrcdev/editor/documents/null">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-08-22T16:17:55.800Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-08-22T16:17:55.800Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#linking"/>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"target":"http://ceww.wordpress.com/2012/03/21/glimpse-by-floris-clark-mclaren/"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsText"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<rdf:value>xpointer(//ref[@annotationId="ent_16"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+</rdf:RDF>
+
+
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Sample Document Title</title>
+    <editor sameAs="www.cwrc.ca/person/someID">Editor Name</editor>
+   </titleStmt>
+   <publicationStmt>
+    <p></p>
+   </publicationStmt>
+   <sourceDesc sameAs="http://www.cwrc.ca">
+    <p>Created by members of CWRC/CSÉC unless otherwise noted.</p>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="poem">
+    <head type="poem">
+     <title level="a">Sample Poem Title</title>
+     <title type="subtitle">Sample Subtitle</title>
+    </head>
+    <lg>
+     <l>Verse line</l>
+     <l>Verse line</l>
+     <l>Verse line</l>
+    </lg>
+    <lg>
+     <l>Verse line</l>
+     <l>Verse line</l>
+     <l>Verse line</l>
+    </lg>
+   </div>
+   <div type="poem">
+    <head type="poem">     
+     <bibl>
+      <title level="a">Glimpse</title>
+      <title type="subtitle">Sample Poem</title>
+      <author sameAs="www.cwrc.ca/person/someID">Floris Clark McLaren</author>
+     </bibl>
+    </head>
+    <lg>
+     <l>Against the blue of spruce, and the gray</l>
+     <l>Of bare-boughed poplar, suddenly</l>
+     <l>As though a snowdrift burst in scattering fragments,</l>
+     <l>Ptarmigan rise with heavy whir of wings,</l>
+     <l>Show for a moment clear among the branches,</l>
+     <l>Then disappear,</l>
+     <l>White lost on white again.</l>
+    </lg>
+    <bibl>
+     <author>McLaren, Floris Clark</author>. <title level="a">Glimpse</title>. <title level="j">Canadian Poetry Magazine</title> <biblScope type="vol">1.1</biblScope> <biblScope type="issue"><date>(1936)</date></biblScope>: <biblScope type="pp">23</biblScope>.
+    </bibl>
+    <note type="researchNote">This poem has a suggestion of the magical imagery of <persName sameAs="www.cwrc.ca/person/someID">Kenneth Leslie</persName>’s <title level="a">By Stubborn
+     Stars</title>.</note>
+    <note type="link">Poem featured in <ref annotationId="ent_16" target="http://ceww.wordpress.com/2012/03/21/glimpse-by-floris-clark-mclaren/"><title sameAs="http://ceww.wordpress.com" level="m">Canada's Early
+      Women Writers</title></ref></note> 
+   </div>
+  </body>
+ </text>
+</TEI>
